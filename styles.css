@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+img {
+    width: 200px; /* Atur lebar gambar sesuai kebutuhan */
+    transition: transform 0.3s ease; /* Efek transisi untuk perubahan */
+}
+
+img:hover {
+    transform: scale(1.1); /* Perbesar gambar ketika dihover */
+}
+
+#main-content {
+    padding: 20px;
+}
+
+#movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#pagination button {
+    padding: 8px 16px;
+    background-color: #555655;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#pagination button:hover {
+    background-color: #0b100b;
+}
+
+
+.movie {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.movie img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.movie h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.movie p {
+    font-size: 16px;
+    color: #666;
+}
+
